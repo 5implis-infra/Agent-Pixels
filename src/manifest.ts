@@ -1,6 +1,6 @@
 import type { PaperclipPluginManifestV1 } from "@paperclipai/plugin-sdk";
 
-export const PLUGIN_ID = "agent-pixels.camera";
+export const PLUGIN_ID = "02b799a9-ae5d-4d5f-988e-35385369c3db";
 export const PLUGIN_VERSION = "0.1.0";
 export const PAGE_ROUTE = "agent-pixels";
 
@@ -51,10 +51,11 @@ const manifest: PaperclipPluginManifestV1 = {
         routePath: PAGE_ROUTE,
       },
       {
-        type: "settingsPage",
+        type: "companySettingsPage",
         id: SLOT_IDS.settingsPage,
         displayName: "Agent Pixels Settings",
         exportName: EXPORT_NAMES.settingsPage,
+	routePath: 'agent-pixels-settings'
       },
     ],
   },
