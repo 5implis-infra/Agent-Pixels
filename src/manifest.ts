@@ -53,7 +53,7 @@ const manifest: PaperclipPluginManifestV1 = {
       {
         type: "companySettingsPage",
         id: SLOT_IDS.settingsPage,
-        displayName: "Agent Pixels Settings",
+        displayName: "Agent Pixels",
         exportName: EXPORT_NAMES.settingsPage,
 	routePath: PAGE_ROUTE
       },
